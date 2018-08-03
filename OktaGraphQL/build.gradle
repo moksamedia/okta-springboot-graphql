@@ -56,9 +56,9 @@ dependencies{
     compile("org.springframework.boot:spring-boot-starter-web:$LIB_SPRING_BOOT_VER")
     compile("org.springframework.boot:spring-boot-starter-actuator:$LIB_SPRING_BOOT_VER")
 
-    compile group: 'com.okta.spring', name: 'okta-spring-boot-starter', version: '0.6.0'
-    compile group: 'org.springframework.security.oauth', name: 'spring-security-oauth2', version: '2.3.3.RELEASE'
-    compile ('org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure:2.0.1.RELEASE')
+    //compile group: 'com.okta.spring', name: 'okta-spring-boot-starter', version: '0.6.0'
+    //compile group: 'org.springframework.security.oauth', name: 'spring-security-oauth2', version: '2.3.3.RELEASE'
+    //compile ('org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure:2.0.1.RELEASE')
 }
 
 jar.enabled = false
