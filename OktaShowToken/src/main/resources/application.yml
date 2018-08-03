@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+security:
+  oauth2:
+    client:
+      # From OIDC app
+      clientId: ${oktaClientId}
+      clientSecret: ${oktaClientSecret}
+      # From Authorization Server's metadata
+      accessTokenUri: ${oktaBaseUrl}/oauth2/default/v1/token
+      userAuthorizationUri: ${oktaBaseUrl}/oauth2/default/v1/authorize
+      clientAuthenticationScheme: form
+      scope: openid profile email
+    resource:
+      # from your Auth Server's metadata, check .well-known/openid-configuration if not in .well-known/oauth-authorization-server
+      userInfoUri: ${oktaBaseUrl}/oauth2/default/v1/userinfo
