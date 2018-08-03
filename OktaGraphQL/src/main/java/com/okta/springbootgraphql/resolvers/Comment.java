@@ -1,4 +1,4 @@
-package com.embedler.moon.graphql.boot.resolvers;
+package com.okta.springbootgraphql.resolvers;
 
 class Comment {
 

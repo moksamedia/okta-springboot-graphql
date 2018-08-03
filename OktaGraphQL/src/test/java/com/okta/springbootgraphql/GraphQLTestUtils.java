@@ -1,4 +1,4 @@
-package com.embedler.moon.graphql.boot;
+package com.okta.springbootgraphql;
 
 import com.fasterxml.jackson.core.util.BufferRecyclers;
 import com.fasterxml.jackson.databind.JsonNode;

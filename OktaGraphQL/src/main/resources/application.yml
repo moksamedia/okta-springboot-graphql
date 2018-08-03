@@ -1,6 +1,6 @@
 spring:
   application:
-    name: graphql-java-tools-app
+    name: okta-springboot-graphql
 server:
   port: 9000
 okta:

@@ -1,0 +1,3 @@
+{
+  "query": "{ post(id: '1') { id, text, comments { id, text} } }"
+}

@@ -1,4 +1,4 @@
-package com.embedler.moon.graphql.boot;
+package com.okta.springbootgraphql;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import org.junit.Test;

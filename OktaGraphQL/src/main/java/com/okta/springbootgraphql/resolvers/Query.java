@@ -1,11 +1,9 @@
-package com.embedler.moon.graphql.boot.resolvers;
+package com.okta.springbootgraphql.resolvers;
 
 import com.coxautodev.graphql.tools.GraphQLQueryResolver;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
 
 @Component
 class Query implements GraphQLQueryResolver {

@@ -1,9 +1,8 @@
-package com.embedler.moon.graphql.boot.resolvers;
+package com.okta.springbootgraphql.resolvers;
 
 import com.coxautodev.graphql.tools.GraphQLResolver;
 import org.springframework.stereotype.Component;
 
-import java.util.Collections;
 import java.util.List;
 
 @Component
